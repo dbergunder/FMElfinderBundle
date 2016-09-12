@@ -78,6 +78,7 @@ class Configuration implements ConfigurationInterface
                                                 ->scalarNode('path')->defaultValue('')->end()
                                                 ->scalarNode('start_path')->defaultValue('')->end()
                                                 ->scalarNode('url')->defaultValue('')->end()
+                                                ->scalarNode('quarantine')->defaultValue('')->end()
                                                 ->scalarNode('alias')->defaultValue('')->end()
                                                 ->scalarNode('mime_detect')->defaultValue('auto')->end()
                                                 ->scalarNode('mimefile')->defaultValue('')->end()
