@@ -94,6 +94,7 @@ class ElFinderConfigurationReader implements ElFinderConfigurationProviderInterf
                 'glideKey'          => $parameter['glide_key'],
                 'plugin'            => $parameter['plugins'],
                 'path'              => $path.$homeFolder, //removed slash for Flysystem compatibility
+                'quarantine'        => $parameter['quarantine'],
                 'startPath'         => $parameter['start_path'],
                 'URL'               => $this->getURL($parameter, $request, $homeFolder, $path),
                 'alias'             => $parameter['alias'],
